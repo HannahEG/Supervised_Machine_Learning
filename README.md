@@ -59,3 +59,8 @@ Utilizing SMOTEENN from imblearn library:
 
 ## Analysis/Conclusions
 
+All models utilized on the loans dataset produced a precision score of .01 and 1 for high risk and low risk loan status, respectively. These models are not likely to positively predict high risk loans. It is as though each model predicted almost every loan would be low risk. Indeed, low risk loans are the majority loan. Varied and combination sampling did not mitigate this issue. Perhaps there is a level of overfitting at play.
+
+However, the balance accuracy scores do vary with Random Oversampling model producing the highest results, .64.
+
+Alternatively, the model which produced the best recall or sensitivity results 
